@@ -6,4 +6,4 @@
      offering strategic insights for career development in data analysis
  */
 
-shoul rewrite with tutorial
+should rewrite with tutorial
