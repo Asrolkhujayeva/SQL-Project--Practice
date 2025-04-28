@@ -36,3 +36,108 @@ SELECT
         p.salary_year_avg IS NOT NULL
  ORDER BY p.salary_year_avg DESC
  LIMIT 10;
+
+ /*Results
+[
+  {
+    "company_name": "Plexus Resource Solutions",
+    "job_id": 1246069,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-12-08 09:16:37",
+    "skills": "python"
+  },
+  {
+    "company_name": "Plexus Resource Solutions",
+    "job_id": 1246069,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-12-08 09:16:37",
+    "skills": "mysql"
+  },
+  {
+    "company_name": "Plexus Resource Solutions",
+    "job_id": 1246069,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-12-08 09:16:37",
+    "skills": "aws"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "sql"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "python"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "r"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "sas"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "matlab"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "pandas"
+  },
+  {
+    "company_name": "Get It Recruit - Information Technology",
+    "job_id": 712473,
+    "job_title": "Data Analyst",
+    "job_location": "Anywhere",
+    "job_schedule_type": "Full-time",
+    "salary_year_avg": "165000.0",
+    "job_posted_date": "2023-08-14 16:01:19",
+    "skills": "tableau"
+  }
+]
+ */

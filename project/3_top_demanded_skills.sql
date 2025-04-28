@@ -30,3 +30,34 @@ WHERE jobs.job_title = 'Data Analyst'
 GROUP BY jobs.job_title, job_skills.skills
 ORDER BY count_skills DESC
 LIMIT 5;
+
+
+/*Results:
+[
+  {
+    "job_title": "Data Analyst",
+    "skills": "sql",
+    "count_skills": "24099"
+  },
+  {
+    "job_title": "Data Analyst",
+    "skills": "excel",
+    "count_skills": "15154"
+  },
+  {
+    "job_title": "Data Analyst",
+    "skills": "python",
+    "count_skills": "14246"
+  },
+  {
+    "job_title": "Data Analyst",
+    "skills": "tableau",
+    "count_skills": "12112"
+  },
+  {
+    "job_title": "Data Analyst",
+    "skills": "power bi",
+    "count_skills": "10156"
+  }
+]
+*/
